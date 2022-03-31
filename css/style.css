@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+
+body {
+  background-image: url("https://i.ibb.co/dj0sgP8/so-white.png");
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#external-circle {
+  width: 500px;
+  height: 500px;
+  border: none;
+  border-radius: 250px;
+  background-color: burlywood;
+  position: relative;
+  margin: auto;
+  box-shadow: 8px 8px 15px 5px rgba(0, 0, 0, 0.35);
+}
+
+#top-left {
+  width: 250px;
+  height: 250px;
+  background-color: darkgreen;
+  border-color: black;
+  border-style: solid;
+  border-width: 18px 8px 8px 18px;
+  border-radius: 250px 0 0 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -250px 0 0 -250px;
+}
+
+#top-right {
+  width: 250px;
+  height: 250px;
+  background-color: darkred;
+  border-color: black;
+  border-style: solid;
+  border-width: 18px 18px 8px 8px;
+  border-radius: 0 250px 0 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -250px 0 -250px 0;
+}
+
+#bottom-left {
+  width: 250px;
+  height: 250px;
+  background-color: goldenrod;
+  border-color: black;
+  border-style: solid;
+  border-width: 8px 8px 18px 18px;
+  border-radius: 0 0 0 250px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 0px -250px 0px -250px;
+}
+
+#bottom-right {
+  width: 250px;
+  height: 250px;
+  background-color: darkblue;
+  border-color: black;
+  border-style: solid;
+  border-width: 8px 18px 18px 8px;
+  border-radius: 0 0 250px 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 0px 0px -250px 0px;
+}
+
+#internal-circle {
+  width: 250px;
+  height: 250px;
+  border: none;
+  border-radius: 250px;
+  background-color: black;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  margin: -125px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#genius {
+  color: white;
+  font-weight: 500;
+  font-size: 2rem;
+  letter-spacing: 3px;
+}
+
+#button-play {
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4rem;
+  letter-spacing: 3px;
+  padding: 0.5rem 1rem;
+  border-radius: 1.5em;
+  border: none;
+  margin-top: 1rem;
+}
+
+#button-play:hover {
+  cursor: pointer;
+}
+
+#internal-circle div {
+  color: white;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+}
+
+#wrong-seq {
+  font-size: 20px;
+  letter-spacing: 3.5px;
+  margin-bottom: 7%;
+  width: 50%;
+  text-align: center;
+}
+
+#current-score {
+  font-size: 16px;
+  letter-spacing: 2.5px;
+  margin-bottom: 3%;
+}
+
+#highest-score {
+  font-size: 16px;
+  letter-spacing: 2.5px;
+}
+
+#button-playAgain {
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2.5px;
+  margin-top: 10%;
+  width: 9em;
+  border: none;
+  border-radius: 1.5em;
+  padding: 0.3rem 0.8rem;
+}
+
+#button-playAgain:hover {
+  cursor: pointer;
+}
